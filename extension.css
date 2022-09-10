@@ -1,0 +1,81 @@
+body{
+    font-family:  Roboto;
+   /* font-weight:200;*/
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    min-width: 400px;
+    min-height: 400px;
+}
+#input-el{
+    width: 75%;
+    color: rgba(219, 219, 219, 0.753);
+    background-color: rgb(24, 24, 24);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border-color: rgb(255, 217, 0);
+    border-width: 1px;
+    border-style:solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+button{
+
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 12px;
+    background-color: rgb(255, 217, 0);
+    /*box-shadow: 2px, 2px, 1;*/
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 700;
+    
+}
+
+#clear-el{
+
+    background-color: rgb(255, 0, 0);
+}
+
+#entry-el{
+    
+   
+    background: rgba(44, 44, 44, 0);
+
+    color: rgba(255, 217, 0, 0.877);
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+}
+
+li{
+    color: rgb(255, 217, 0);
+    font-weight: lighter;
+    text-decoration: underline;
+    list-style: none;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+p{
+    
+    color: rgb(255, 217, 0);
+    letter-spacing: 0.1em;
+}
+
+a{
+    color: rgb(255, 217, 0);
+    letter-spacing: 0.05em;
+}
