@@ -5,7 +5,8 @@
     "action": {
         "default_popup": "extension.html",
         "default_icon" : "extension.png"
-    }
-
-
+    },
+    "permissions": [
+        "tabs"
+    ]
 }

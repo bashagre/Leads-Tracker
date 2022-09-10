@@ -46,12 +46,14 @@ clearEl.addEventListener("click", function(){
 
 tabEl.addEventListener("click", function(){
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
-        let activeTab = tabs[0]
-        let activeTabId = activeTab.id
+        console.log("tab button clicked")
+        responseEl.textContent = "Tab Saved!"
+        myLeads.push(tabs[0].url)
+        localStorage.setItem("myLeads", JSON.stringify(myLeads))
+        renderEntries(myLeads)   
     })
-    
-    console.log("tab button clicked")
-    responseEl.textContent = "Tab Saved!"
+
+   
 
 })
 
